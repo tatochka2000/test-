@@ -3,3 +3,4 @@ browser = webdriver.Chrome()
 browser.get("https://www.youtube.com/")
 search = browser.find_element(By.ID, "search")
 search.send_keys(a, Keys.ENTER)
+
